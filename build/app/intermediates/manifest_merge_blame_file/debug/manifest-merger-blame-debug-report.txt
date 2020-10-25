@@ -1,0 +1,344 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rinshad.machine_test"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+19    <!--
+20 io.flutter.app.FlutterApplication is an android.app.Application that
+21         calls FlutterMain.startInitialization(this); in its onCreate method.
+22         In most cases you can leave this as-is, but you if you want to provide
+23         additional functionality it is fine to subclass or reimplement
+24         FlutterApplication and put your custom class here.
+25    -->
+26    <application
+26-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:8:5-46:19
+27        android:name="io.flutter.app.FlutterApplication"
+27-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:9:9-57
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/aafef0879a74786e0e084911877b2a52/core-1.1.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:11:9-43
+31        android:label="machine_test" >
+31-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:10:9-37
+32        <activity
+32-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:12:9-40:20
+33            android:name="com.rinshad.machine_test.MainActivity"
+33-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:13:13-41
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:16:13-163
+35            android:hardwareAccelerated="true"
+35-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:17:13-47
+36            android:launchMode="singleTop"
+36-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:14:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:15:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:18:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:23:13-26:17
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:24:15-70
+48                android:resource="@style/NormalTheme" />
+48-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:25:15-52
+49            <!--
+50                 Displays an Android View that continues showing the launch screen
+51                 Drawable until Flutter paints its first frame, then this splash
+52                 screen fades out. A splash screen is useful to avoid any visual
+53                 gap between the end of Android's launch screen and the painting of
+54                 Flutter's first frame.
+55            -->
+56            <meta-data
+56-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:32:13-35:17
+57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+57-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:33:15-79
+58                android:resource="@drawable/launch_background" />
+58-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:34:15-61
+59
+60            <intent-filter>
+60-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:36:13-39:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:37:17-68
+61-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:37:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:38:17-76
+63-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:38:27-74
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:43:9-45:33
+71            android:name="flutterEmbedding"
+71-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:44:13-44
+72            android:value="2" />
+72-->/Users/muhammedmuhsin/Documents/zartek/machine_test/android/app/src/main/AndroidManifest.xml:45:13-30
+73
+74        <service
+74-->[:firebase_auth] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_auth] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1514c8ebd03cce356ccb1785ac817599/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:37:13-37
+78            <meta-data
+78-->[:firebase_auth] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+79-->[:firebase_auth] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_auth] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_core] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+82-->[:firebase_core] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] /Users/muhammedmuhsin/Documents/zartek/machine_test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:38:13-40:85
+85                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+85-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:39:17-119
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:40:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/b8fa123fee64fae14b904c0567e332ab/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+88                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+88-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/b8fa123fee64fae14b904c0567e332ab/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/b8fa123fee64fae14b904c0567e332ab/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+90            <meta-data
+90-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+91                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+91-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fb49bd04599589123a9d73b1089784bb/play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:32:13-34:85
+94                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+94-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:33:17-96
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:34:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-installations:16.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/15d8373477a190e26842f482ea53e8f8/firebase-installations-16.1.0/AndroidManifest.xml:17:13-19:85
+100                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+100-->[com.google.firebase:firebase-installations:16.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/15d8373477a190e26842f482ea53e8f8/firebase-installations-16.1.0/AndroidManifest.xml:18:17-127
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-installations:16.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/15d8373477a190e26842f482ea53e8f8/firebase-installations-16.1.0/AndroidManifest.xml:19:17-82
+102        </service>
+103        <!--
+104             FirebaseMessagingService performs security checks at runtime,
+105             but set to not exported to explicitly avoid allowing another app to call it.
+106        -->
+107        <service
+107-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:28:9-34:19
+108            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+108-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:29:13-82
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:30:13-37
+110            <intent-filter android:priority="-500" >
+110-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:31:13-33:29
+110-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:31:28-51
+111                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+111-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:32:17-78
+111-->[com.google.firebase:firebase-messaging:20.1.3] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/9066e70d653fe46c5ee2a886aa7bac2f/jetified-firebase-messaging-20.1.3/AndroidManifest.xml:32:25-75
+112            </intent-filter>
+113        </service>
+114
+115        <receiver
+115-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:37:9-44:20
+116            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+116-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:38:13-78
+117            android:exported="true"
+117-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:39:13-36
+118            android:permission="com.google.android.c2dm.permission.SEND" >
+118-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:40:13-73
+119            <intent-filter>
+119-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:41:13-43:29
+120                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+120-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:42:17-81
+120-->[com.google.firebase:firebase-iid:20.1.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b51eee67bcd03e863cf7567222fd679/firebase-iid-20.1.2/AndroidManifest.xml:42:25-78
+121            </intent-filter>
+122        </receiver>
+123
+124        <activity
+124-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+125            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+125-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+129            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+129-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.firebase:firebase-auth:19.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/a3299763db41961f461f98cbae5db0f9/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+131
+132        <provider
+132-->[com.google.firebase:firebase-common:19.3.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1514c8ebd03cce356ccb1785ac817599/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+133            android:name="com.google.firebase.provider.FirebaseInitProvider"
+133-->[com.google.firebase:firebase-common:19.3.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1514c8ebd03cce356ccb1785ac817599/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+134            android:authorities="com.rinshad.machine_test.firebaseinitprovider"
+134-->[com.google.firebase:firebase-common:19.3.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1514c8ebd03cce356ccb1785ac817599/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+135            android:exported="false"
+135-->[com.google.firebase:firebase-common:19.3.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1514c8ebd03cce356ccb1785ac817599/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+136            android:initOrder="100" />
+136-->[com.google.firebase:firebase-common:19.3.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1514c8ebd03cce356ccb1785ac817599/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+137
+138        <activity
+138-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+139            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+139-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+140            android:excludeFromRecents="true"
+140-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+143        <!--
+144            Service handling Google Sign-In user revocation. For apps that do not integrate with
+145            Google Sign-In, this service will never be started.
+146        -->
+147        <service
+147-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+148            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+148-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+149            android:exported="true"
+149-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+150            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+150-->[com.google.android.gms:play-services-auth:16.0.1] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/6f44f1eb2dd7f8e14bc7b1109487e506/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:17.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/ee20ad87731d22ea3b5778026492d71f/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:17.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/ee20ad87731d22ea3b5778026492d71f/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:17.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/ee20ad87731d22ea3b5778026492d71f/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:17.1.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/ee20ad87731d22ea3b5778026492d71f/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+156
+157        <receiver
+157-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+158            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+158-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+159            android:enabled="true"
+159-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+160            android:exported="false" >
+160-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+161        </receiver>
+162        <receiver
+162-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+163            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+163-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+164            android:enabled="true"
+164-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+165            android:exported="true"
+165-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+166            android:permission="android.permission.INSTALL_PACKAGES" >
+166-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+167            <intent-filter>
+167-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+168                <action android:name="com.android.vending.INSTALL_REFERRER" />
+168-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+168-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+169            </intent-filter>
+170        </receiver>
+171
+172        <service
+172-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+173            android:name="com.google.android.gms.measurement.AppMeasurementService"
+173-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+175            android:exported="false" />
+175-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+176        <service
+176-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+177            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+177-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" />
+180-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/f204a261c0a2977feb52913cbcff0d57/play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+181
+182        <meta-data
+182-->[com.google.android.gms:play-services-basement:17.0.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1902dd5d8e5cd3652153befb9b77d594/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+183            android:name="com.google.android.gms.version"
+183-->[com.google.android.gms:play-services-basement:17.0.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1902dd5d8e5cd3652153befb9b77d594/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+184            android:value="@integer/google_play_services_version" />
+184-->[com.google.android.gms:play-services-basement:17.0.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/1902dd5d8e5cd3652153befb9b77d594/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+185
+186        <service
+186-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b02639e514f4922914d867753350f79/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+187            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+187-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b02639e514f4922914d867753350f79/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+188            android:exported="false" >
+188-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b02639e514f4922914d867753350f79/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+189            <meta-data
+189-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b02639e514f4922914d867753350f79/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+190                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+190-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b02639e514f4922914d867753350f79/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+191                android:value="cct" />
+191-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/3b02639e514f4922914d867753350f79/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+192        </service>
+193        <service
+193-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+194            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+194-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+195            android:exported="false"
+195-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE" >
+196-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+197        </service>
+198
+199        <receiver
+199-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+200            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+200-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+201            android:exported="false" />
+201-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/muhammedmuhsin/.gradle/caches/transforms-2/files-2.1/fdbaaedf4cbb085f0a6f7693db7cdee5/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+202    </application>
+203
+204</manifest>
